@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elokuvien nimi, teatteri ja näytösaikojen haku sovellus</title>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS-kirjasto -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Oma CSS-tiedosto -->
+    <link rel="stylesheet" type="text/css" href="tyylit.css">
+</head>
+<body>
+    <!-- Sisältökontti -->
+    <div class="container">
+        <!-- Otsikko -->
+        <h1 class="text-center my-4">Elokuvien nimi, teatteri ja näytösaikojen haku sovellus</h1>
+        <!-- Teatterin valintaelementti -->
+        <select id="teatteriValinta" class="form-control mb-3">
+        </select>
+        <!-- Hakusyöttökenttä -->
+        <input type="text" id="hakuSyote" class="form-control mb-3" placeholder="Etsi elokuvaa...">
+        <!-- Elokuvatietojen alue -->
+        <div id="elokuvaTiedot" class="row">
+        </div>
+    </div>
+
+    <!-- jQuery-kirjasto -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Oma JavaScript-tiedosto -->
+    <script src="sovellus.js"></script>
+</body>
+</html>
